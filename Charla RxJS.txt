@@ -1,0 +1,52 @@
+
+
+Callback
+ej.
+
+Promesa
+--se llama callback porque es una "llamada" para cuando "vuelve" la peticion
+--beneficios x sobre callback
+1- No entramos en el callback hell
+2- podemos manejar excepciones, en callback hay q tener uno especial para el caso de error
+3- podemos encadenar varias promesas una tras otra simulando que el codigo es secuencial
+4-
+
+ej.
+
+Patron Observer
+nombres tecnicos de los elementos
+https://www.youtube.com/watch?v=HFkZb1g8faA
+
+Elementos
+
+Observable (tambien lo van a llamar Subject):
+-- explicar nombres
+attach()
+dettach()
+notify()
+
+Observer
+update()
+
+ej.
+
+RxJS
+Necesidad de tener mas de una "resolucion"
+-- explicar ventajas xq usar y desventajas xq no usar
+
+--
+-subscripcion
+-objeto que recibe la suscripcion (observer)
+-desubscripcion
+
+-pipe
+
+-operadores relevantes dentro del pipe
+tap, map, take, filter, pluck
+
+combinacion de observables
+forkjoin (tmb existe combineLatest y mergeMap)
+
+Usos
+
+Operadores relevantes

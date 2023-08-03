@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
+function imprimir(valor: any) {
+  console.log(valor);
+}
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'charla';
-}
+export class AppComponent {}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Charla de RxJS</title>
+</head>
+<body>
+    <h1>Mi Charla de RxJS</h1>
+    
+    <!-- Callback -->
+    <button onclick="onCallbackButtonClick('Boton de callback')">
+        Callback
+    </button>
+    <hr>
+
+    <!-- Promesas -->
+    <button onclick="onPromiseButtonClick()">
+        Promesa
+    </button>
+    <hr>
+    <button onclick="onFetchButtonClick()">
+        Boton Fetch
+    </button>
+
+    <!-- Patron Observer -->
+    <hr>    
+    <div style="border: 1px red solid;">Patron Observer</div>
+
+    <br>
+    <div>Elementos:</div>
+    <br>
+
+    <div>
+        <span>Observable:</span>
+        <input type="text" id="miObservable">
+        <button onclick="notificar()">Notificar</button>
+    </div>
+
+    <br>
+
+    <div>
+        <span>Observer_1:</span>
+        <input disabled type="text" id="Observer_1">
+        <button onclick="atar('Observer_1')">Atar</button>
+        <button onclick="desatar('Observer_1')">Desatar</button>
+    </div>
+
+    <br>
+
+    <div>
+        <span>Observer_2:</span>
+        <input disabled type="text" id="Observer_2">
+        <button onclick="atar('Observer_2')">Atar</button>
+        <button onclick="desatar('Observer_2')">Desatar</button>
+    </div>
+
+    <br>
+
+    <div>
+        <span>Observer_3:</span>
+        <input disabled type="text" id="Observer_3">
+        <button onclick="atar('Observer_3')">Atar</button>
+        <button onclick="desatar('Observer_3')">Desatar</button>
+    </div>
+
+</body>
+
+<script src="./index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</html>
